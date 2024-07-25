@@ -499,5 +499,11 @@ body {
     height: 27px;
   }
   
+  .category {
+    background-color: #8750f7;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
   
   
