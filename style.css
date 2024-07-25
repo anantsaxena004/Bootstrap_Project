@@ -232,3 +232,272 @@ body {
     color: #2a1454;
     margin-top: 10px;
 }
+
+
+/* css for footer  */
+.tj-footer-area {
+    background-color: #2a1454;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-menu nav ul li a {
+    color: white; /* This will change the font color of menu items to white */
+}
+
+.copy-text p, .copy-text p a {
+    color: #6c4cf7; /* This will change the font color of the copyright text */
+}
+
+
+.footer-menu nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu nav ul li {
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
+.footer-logo-box img {
+    height: 75px;
+    width: 75px;
+    display: block; /* This will make it easier to center */
+    margin: auto; /* This will center the logo horizontally */
+}
+
+.footer-menu{
+    padding-top: 27px;
+}
+
+.footer-menu nav ul li a {
+    text-decoration: none; /* This will remove the underline from the links */
+}
+
+
+
+/* CSS FOR FORM  */
+/* General styles
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f3ff;
+    color: #333;
+}
+
+/* Contact section styles */
+.contact-section {
+    padding: 60px 0;
+    background-color: #f5f3ff;
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.section-header .section-title {
+    font-size: 36px;
+    color: #6a00ff;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-form-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.form_group input,
+.form_group select,
+.form_group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form_group select {
+    height: 50px;
+}
+
+.form_group textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form_btn {
+    text-align: center;
+}
+
+.form_btn button {
+    background: linear-gradient(45deg, #6a00ff, #aa00ff);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form_btn button:hover {
+    background: linear-gradient(45deg, #aa00ff, #6a00ff);
+}
+
+/* Contact info styles */
+.contact-info-list {
+    margin-left: 30px;
+}
+
+.contact-info-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info-list .icon-box {
+    background: linear-gradient(45deg, #6a00ff, #aa00ff);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact-info-list .text-box p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.contact-info-list .text-box a {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-info-list .text-box a:hover {
+    color: #6a00ff;
+}
+
+@media (max-width: 768px) {
+    .contact-info-list {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .contact-info-list li {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-info-list .icon-box {
+        margin: 0 0 10px 0;
+    }
+} 
+
+.contact-section {
+    background-color: #f5f3ff;
+}
+
+.contact-section input,
+.contact-section select,
+.contact-section textarea {
+    background-color: #f5f3ff; /* Match the section background color */
+    color: #333; /* Adjust text color for readability */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+/* blog section css  */
+.blog-section {
+    background-color: #f7f7f7; /* Change this to match your desired background color */
+    padding: 50px 0; /* Adjust the padding to control the spacing */
+  }
+  
+  .section-header {
+    text-align: center; /* Centers the header text */
+    margin-bottom: 30px; /* Adds space below the header */
+  }
+  
+  .section-title {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Adds space below the title */
+  }
+  
+  .blog-item {
+    margin-bottom: 30px; /* Adds space below each blog item */
+  }
+  
+  .blog-thumb {
+    position: relative;
+  }
+  
+  .blog-thumb .category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #8750f7; 
+    /* Change this to match your desired category label color */
+    color: #fff;
+    padding: 5px 15px;
+    
+  }
+  
+  .blog-content {
+    background-color: #fff; /* Change this for the content background color */
+    padding: 20px;
+  }
+  
+  .blog-meta {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .blog-meta ul {
+    list-style-type: none;
+  }
+  
+  .blog-meta li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .blog-title {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  .blog-title a {
+    text-decoration: none; /* Removes underline from links */
+  }
+
+  .tutorial-btn {
+    width: 87px;
+    height: 27px;
+  }
+  
+  
+  
