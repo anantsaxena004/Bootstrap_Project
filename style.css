@@ -1,6 +1,7 @@
-/* body{
+body{
     font-family: "Sora", sans-serif;
-} */
+  font-optical-sizing: auto;
+}
 
 .navbar-custom {
     background-color: white;
@@ -116,9 +117,7 @@
 
 /* css for My Recent Works */
 
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 .my-recent-works {
     padding: 60px 0;
@@ -280,11 +279,7 @@ body {
 
 /* CSS FOR FORM  */
 /* General styles
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f3ff;
-    color: #333;
-}
+
 
 /* Contact section styles */
 .contact-section {
