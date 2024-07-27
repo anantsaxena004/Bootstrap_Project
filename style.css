@@ -500,6 +500,53 @@ body{
     text-decoration: none;
   }
   
-  
-  /* css for my clent section  */
-  
+/* css for my experience section  */
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.section-header {
+    margin-bottom: 20px;
+}
+.resume-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.resume-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.institute {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Experience section */
+.flaticon-recommendation::before {
+    content: "\f0eb"; /* Font Awesome icon for recommendation */
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+
+/* Education section */
+.flaticon-graduation-cap::before {
+    content: "\f19d"; /* Font Awesome icon for graduation cap */
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+
+
+
+
+
