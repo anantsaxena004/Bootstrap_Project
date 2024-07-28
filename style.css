@@ -199,8 +199,35 @@ body{
 }
 
 
+#figma-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
 
+#sketch-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
 
+#XD-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
+
+#wordpress-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
+
+#react-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
+
+#js-skill:hover{
+    background-color: #2a1454;
+    color: #8750f7;
+}
 
 
 /* css for footer  */
@@ -434,7 +461,7 @@ body{
   }
   
   .blog-content {
-    background-color: #fff; /* Change this for the content background color */
+    background-color: #fff; 
     padding: 20px;
   }
   
@@ -454,6 +481,7 @@ body{
   
   .blog-title {
     font-size: 24px; /* Adjust the font size as needed */
+    color: #2a1454;
   }
   .blog-title a {
     text-decoration: none; /* Removes underline from links */
@@ -469,8 +497,36 @@ body{
     border-radius: 50px;
     text-decoration: none;
   }
-  
 
+  #comment-tag1{
+    text-decoration: none;
+    color: #8750f7 ;
+  }
+  
+  #comment-tag2{
+    text-decoration: none;
+    color: #8750f7 ;
+  }
+
+  #comment-tag3{
+    text-decoration: none;
+    color: #8750f7 ;
+  }
+
+  .img-calender{
+    color: #8750f7 ;
+  }
+
+  .date{
+    color: #8750f7 ;
+  }
+
+  .blog-title h3{
+    color: #2a1454;
+  }
+
+
+  
 
 /* css for my experience section  */
 
