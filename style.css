@@ -38,28 +38,51 @@ body{
 
 
 /* css for My Quality Services */
-.services {
-    padding: 100px 0;
-    background-color: #f7f7f7;
+/* Style for the service boxes */
+.service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
-.section-title {
-    margin-bottom: 50px;
+.service-box:hover {
+    background-color: #6f42c1; /* Change background color on hover */
+    color: #fff; /* Text color on hover */
 }
 
-.section-title h6 {
-    color: #6f42c1;
-    font-size: 16px;
+.service-box h4 {
+    font-size: 18px;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    color: #6f42c1; /* Default color for h4 */
+    transition: color 0.3s ease; /* Add a smooth transition effect */
 }
 
-.section-title h3 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #2a1454;
+.service-box:hover h4 {
+    color: #fff; /* Change h4 color on hover */
+    font-size: 25px;
 }
 
+.service-box p {
+    font-size: 14px;
+    color: #777;
+}
+
+.service-box:hover p {
+    color: #fff; /* Change p color on hover */
+}
+
+.service-icon {
+    font-size: 24px;
+    color: #6f42c1;
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.service-box:hover .service-icon {
+    color: #fff; /* Change service icon color on hover */
+}
 .service-box {
     background: #fff;
     padding: 20px;
@@ -70,55 +93,33 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-.service-box.active {
-    background: #6f42c1;
-    color: #fff;
+.services {
+    padding: 100px 0;
+    background-color: #f7f7f7;
 }
-
+.service-box {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .service-number {
     font-size: 24px;
     font-weight: 700;
-    color: #6f42c1;
     flex-shrink: 0;
 }
-
-.service-box.active .service-number {
-    color: #fff;
-}
-
-.service-content {
-    flex-grow: 1;
-    margin-left: 20px;
-}
-
-.service-content h4 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: inherit;
-}
-
-.service-content p {
-    color: inherit;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.service-icon {
-    font-size: 24px;
+.section-title h3 {
+    font-size: 28px;
+    font-weight: 700;
     color: #6f42c1;
-    flex-shrink: 0;
 }
 
-.service-box.active .service-icon {
-    color: #fff;
-}
 
 /* css for My Recent Works */
-
-
-
 .my-recent-works {
     padding: 60px 0;
     background-color: #f8f9fa;
@@ -152,9 +153,31 @@ body{
     margin-bottom: 15px;
 }
 
+
+/* Style for the recent works section */
+.work-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.work-content:hover {
+    background-color: #6f42c1; /* Change background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
 .work-content h3 {
+
     font-size: 1.5em;
-    color: #333;
+    color: #2a1454; /* Default color for h3 */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Add smooth transitions */
+}
+
+.work-content:hover h3 {
+    color: #fff; /* Change h3 color on hover */
+    font-size: 25px; /* Increase font size on hover */
 }
 
 .work-content p {
@@ -162,75 +185,22 @@ body{
     font-size: 1em;
 }
 
+.work-content:hover p {
+    color: #fff; /* Change p color on hover */
+}
+
 
 
 /* my skill css */
+/* Style for the skill section */
 .skills-section {
-    background-color: #f3f3f3;
+    background-color: #ffffff; 
     padding: 50px 0;
 }
-.skill-card {
-    margin-bottom: 30px;
-    border: none;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    width: 133px;
-    height: 110px;
-    padding: 30px 15px 25px 15px;
-}
-.skill-icon {
-    font-size: 50px;
-    color: #2a1454;
-}
-.skill-percentage {
-    font-size: 24px;
-    color: #2a1454;
-}
-.skill-name {
-    font-size: 18px;
-    color: #2a1454;
-    margin-top: 10px;
-}
 
 
 
 
-
-
-
-
-
-
-
-
-.skill-item {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.skill-inner {
-    background-color: #fff;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px 15px 25px 15px;
-    width: 133px;
-    height: 110px;
-    margin: 0 auto;
-}
-.icon-box img {
-    width: 50px;
-    height: 50px;
-}
-.number {
-    font-size: 24px;
-    color: #2a1454;
-    margin-top: 10px;
-}
-.skill-item p {
-    font-size: 18px;
-    color: #2a1454;
-    margin-top: 10px;
-}
 
 
 /* css for footer  */
@@ -500,51 +470,47 @@ body{
     text-decoration: none;
   }
   
+
+
 /* css for my experience section  */
 
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-} */
-/* .row {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
-.section-header {
-    margin-bottom: 20px;
-}
 .resume-item {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
+
+.resume-item:hover {
+    background-color: #6f42c1; /* Change background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
 .resume-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #2a1454; /* Default color for resume title */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Add smooth transitions */
 }
+
+.resume-item:hover .resume-title {
+    color: #fff; /* Change title color on hover */
+    font-size: 25px; /* Increase font size on hover */
+}
+
 .institute {
     font-size: 14px;
-    color: #777;
+    color: #000; /* Default color for institute */
 }
 
-/* Experience section */
-.flaticon-recommendation::before {
-    content: "\f0eb"; /* Font Awesome icon for recommendation */
-    font-family: FontAwesome;
-    margin-right: 10px;
+.resume-item:hover .institute {
+    color: #fff; /* Change institute color on hover */
 }
 
-/* Education section */
-.flaticon-graduation-cap::before {
-    content: "\f19d"; /* Font Awesome icon for graduation cap */
-    font-family: FontAwesome;
-    margin-right: 10px;
-}
 
 
 
